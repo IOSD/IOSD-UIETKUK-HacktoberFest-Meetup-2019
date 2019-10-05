@@ -44,5 +44,5 @@ There are 4 types of problems in this repo
 <ul>
   <li>IRIS Dataset (Flower Classification)</li>
   <li>Make Your Portfolio in Single HTML file</li>
-  <li>Skin Detecter Using OpenCV</li>
+  <li>Skin Detector Using OpenCV</li>
 </ul>
