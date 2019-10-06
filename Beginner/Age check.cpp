@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
@@ -8,8 +8,8 @@ int main()
     cout << "Input age";
     cin >> n;
     if(n>=18)
-        cout << "Adult ";
+        cout << "Adult " << endl;
     else 
-        cout<<"Not an adult";
+        cout<<"Not an adult" << endl;
 return 0;
 }
