@@ -18,7 +18,7 @@ int binarySearch(int arr[], int l, int r, int x)
 int main() 
 { 
     int n,x;
-    cout<<"Enter soze of array followed by the elements of array";
+    cout<<"Enter size of array followed by the elements of array";
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++)
