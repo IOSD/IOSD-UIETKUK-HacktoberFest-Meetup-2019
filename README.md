@@ -16,7 +16,7 @@ There are 4 types of problems in this repo
 
 <ul>
   <li>Check Whether Number is Odd or Not</li>
-  <li>Input The Age, if age>18 print adult , if 10<age<=18 print teen, if age<10 print child</li>
+  <li>Input The Age, if age > 18 print adult , if 10 < age <= 18 print teen, if age < 10 print child</li>
   <li>Fibanocci Sequence</li>
   <li>Check Whether Input String is Palindrome or Not</li>
 </ul>
@@ -27,7 +27,7 @@ There are 4 types of problems in this repo
   <li>Bubble Sort</li>
   <li>Binary Search</li>
   <li>Quick Sort</li>
-  <li>Flip the bits of given number from</li>
+  <li>Flip the bits of given number</li>
 </ul>
 
 ### Advanced
