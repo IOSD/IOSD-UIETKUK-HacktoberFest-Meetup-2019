@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
@@ -11,7 +11,7 @@ int main()
 
     cout << "Fibonacci Sequence: ";
 
-    int a = 0, b = 1, c = 0;
+    int a = 0, b = 1, c;
     for (int i = 1; i <= n; i++){
         if(i == 1){
             cout << " " << a;
