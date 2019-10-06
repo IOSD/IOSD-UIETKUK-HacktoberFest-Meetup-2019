@@ -27,7 +27,7 @@ There are 4 types of problems in this repo
   <li>Bubble Sort</li>
   <li>Binary Search</li>
   <li>Quick Sort</li>
-  <li>Flip the bits of given number</li>
+  <li>Flip the bits of given number(reversal)</li>
 </ul>
 
 ### Advanced
