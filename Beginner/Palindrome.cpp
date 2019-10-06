@@ -1,26 +1,32 @@
 #include <iostream> 
 #include <string.h>  
 using namespace std; 
-void isPalindrome(char str[]) 
-{ 
-    int l = 0; 
-    int h = strlen(str) - 1; 
-    while (h > l) 
-    { 
-        if (str[l++] != str[h--]) 
-        { 
-           cout<<str<<" is Not Palindrome"; 
-            return; 
-        } 
-    } 
-    cout<<str<<" is palindrome"; 
-} 
-  
-int main() 
-{ 
-    string s;
-    cout<<"Enter String";
-    cin>>s;
-    isPalindrome(s);
-    return 0; 
+int main()
+{
+        char str[100];
+        int i, length;
+        int flag = 0;    
+
+        cout<<"\n Enter String : ";
+        cin>>str;    
+
+        length = strlen(str);    
+
+        for(i=0;i < length ;i++)
+        {
+                if(str[i] != str[length-i-1])
+                {
+                        flag = 1;
+                        break;
+                }
+        }    
+        if(flag)
+        {
+                cout<<" "<<str<<" is not a palindrome"<<endl;
+        }    
+        else
+        {
+                cout<<" "<<str<< " is a palindrome"<<endl;
+        }
+        return 0;
 }
