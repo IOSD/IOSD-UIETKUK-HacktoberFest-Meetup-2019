@@ -1,6 +1,6 @@
-#include <stdio.h> 
-#include <string.h> 
-#include<stdio.h>  
+#include <iostream> 
+#include <string.h>  
+using namespace std; 
 void isPalindrome(char str[]) 
 { 
     int l = 0; 
