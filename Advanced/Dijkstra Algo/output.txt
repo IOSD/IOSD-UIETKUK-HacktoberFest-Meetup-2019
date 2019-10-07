@@ -1,0 +1,10 @@
+Source: 0
+0 is located at distance of  0
+7 is located at distance of  8
+2 is located at distance of  12
+1 is located at distance of  4
+6 is located at distance of  9
+8 is located at distance of  14
+3 is located at distance of  19
+5 is located at distance of  11
+4 is located at distance of  21
