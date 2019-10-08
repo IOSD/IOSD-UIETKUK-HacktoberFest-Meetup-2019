@@ -14,8 +14,8 @@ def binarySearch(arr, l, r, n):
         else: 
             r = (mid - 1 ) 
         
-        
         return -1
+      
 a = [ 21, 32, 43, 10, 80 ] 
 x = 10
   
