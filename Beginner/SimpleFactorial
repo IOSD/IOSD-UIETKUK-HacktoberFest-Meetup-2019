@@ -1,0 +1,13 @@
+<iostrem>
+using namespace std;
+int main()
+{
+int n, i;
+cin>>n;
+int product=1;
+for(i=n; i>0; i--)
+{
+product = product*i;
+}
+return 0;
+}
