@@ -11,5 +11,4 @@ cout<<"teen";
 }else{
 cout<<"child";
 }
-return 0;
 }
