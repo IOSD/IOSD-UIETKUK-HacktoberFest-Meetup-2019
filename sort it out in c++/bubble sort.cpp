@@ -24,4 +24,5 @@ clrscr();
 	cout<<"Array after bubble sort:\n";
 	for(i=0;i<n;++i)
 		cout<<" "<<a[i];
+	getch();				//it helps to keep the output screen still so that we can see the output of our code.
 }
