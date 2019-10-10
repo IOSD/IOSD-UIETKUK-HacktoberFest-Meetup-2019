@@ -1,14 +1,11 @@
-def fib(n):
-    '''
-    uses generater to return fibonacci sequence 
-    up to given # n dynamically
-    '''
-    a,b = 1,1
-
-    for _ in range(0,n):
-        yield a
-        a,b = b,a+b
-
-    return a
-
-    
+def Fibonacci(n): 
+    if n<0: 
+        print("Incorrect input") 
+    elif n==1: 
+        return 0
+    elif n==2: 
+        return 1
+    else: 
+        return Fibonacci(n-1)+Fibonacci(n-2)  
+  
+print(Fibonacci(9))
