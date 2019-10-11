@@ -2,12 +2,12 @@
 # Code For Binary Search
 # ANKUR-251701105
 
-n = int(input("Enter size of Array"))
+n = int(input("Enter size of Array")) # To find the size of array
 A = []
 for i in range(n):
 	A.append(int(input("Enter the number")))
   #Dyamic memory allocation
-A.sort()
+A.sort() # sorts according to sorting
 start = 0
 end = n
 mid = int((start+end)/2)
