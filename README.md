@@ -1,6 +1,6 @@
 # IOSD-UIETKUK-HacktoberFest-Meetup-2019
-This repository for IOSD UIET-KUK HacktoberFest  Meetup 2019.
-Write a program in your preferred language.
+This repository is for IOSD UIET-KUK HacktoberFest  Meetup 2019.
+Write a program for any of the problem in your preferred language.
 
 ## Getting Started
 
@@ -12,16 +12,16 @@ There are 4 types of problems in this repo
   <li>Miscellaneous</li>
 </ul>
 
-### Beginner
+### BEGINNER
 
 <ul>
   <li>Check Whether Number is Odd or Not</li>
-  <li>Input The Age, if age > 18 print adult , if 10 < age <= 18 print teen, if age < 10 print child</li>
+  <li>Taking Age as input, if age > 18 print adult , if 10 < age <= 18 print teen, if age < 10 print child</li>
   <li>Fibonacci Sequence</li>
   <li>Check Whether Input String is Palindrome or Not</li>
 </ul>
 
-### Intermediate
+### INTERMEDIATE
 
 <ul>
   <li>Bubble Sort</li>
@@ -30,7 +30,7 @@ There are 4 types of problems in this repo
   <li>Flip the bits of a given number</li>
 </ul>
 
-### Advanced
+### ADVANCED
 
 <ul>
   <li>Breadth First Search</li>
@@ -39,7 +39,7 @@ There are 4 types of problems in this repo
   <li>Detect and break the loop in Linked List</li>
 </ul>
 
-### Miscellaneous
+### MISCELLANEOUS
 
 <ul>
   <li>IRIS Dataset (Flower Classification)</li>
