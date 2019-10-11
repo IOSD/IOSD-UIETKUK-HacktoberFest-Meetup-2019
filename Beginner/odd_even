@@ -1,0 +1,5 @@
+n = int(input("Enter a number"))
+if n%2 == 0:
+  print(n,"the no is even")
+else:
+  print(n,"the no is odd")
