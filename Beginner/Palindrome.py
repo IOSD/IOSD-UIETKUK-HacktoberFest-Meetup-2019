@@ -1,18 +1,4 @@
-def reverse(s): 
-    return s[::-1] 
-  
-def isPalindrome(s): 
-    rev = reverse(s) 
-
-    if (s == rev): 
+def is_palindrome(s):  
+    if (s == reverse(s)): 
         return True
     return False
-  
-  
-s = "mom"
-ans = isPalindrome(s) 
-  
-if ans == 1: 
-    print("Yes") 
-else: 
-    print("No") 
