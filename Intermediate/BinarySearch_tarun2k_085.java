@@ -35,11 +35,11 @@ public class Main {
 			else {
 				start=mid+1;
 			}
-			
+
 		}
 		if(c==-1) {
 				System.out.println("Number not found ");
-				
+
 		}
 
     }
