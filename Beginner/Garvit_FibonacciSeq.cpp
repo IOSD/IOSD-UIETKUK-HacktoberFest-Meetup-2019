@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
@@ -8,9 +8,9 @@ int main()
     cout << "Input number of terms:";
     cin >> n;
     cout << "\n";
-    
+
     cout << "Fibonacci Sequence: ";
-    
+
     int a = 0, b = 1, c = 0;
     for (int i = 1; i <= n; i++){
         if(i == 1){
@@ -28,5 +28,5 @@ int main()
             cout << " " << c;
         }
     }
-    
+
 }
