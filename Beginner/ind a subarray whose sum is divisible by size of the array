@@ -1,0 +1,38 @@
+
+#include <bits/stdc++.h> 
+using namespace std; 
+
+void CheckSubarray(int arr[], int N) 
+{ 
+
+	int presum[N + 1] = { 0 }; 
+
+	for (int i = 1; i <= N; i += 1) { 
+
+		presum[i] = presum[i - 1] + arr[i - 1]; 
+	} 
+
+	for (int i = 1; i <= N; i += 1) { 
+
+		for (int j = i; j <= N; j += 1) { 
+
+			if ((presum[j] - presum[i - 1]) % N == 0) { 
+				cout << i - 1 << " " << j - 1; 
+				return; 
+			} 
+		} 
+	} 
+
+	cout << -1; 
+} 
+
+int main() 
+{ 
+	int arr[] = { 7, 5, 3, 7 }; 
+
+	int N = sizeof(arr) / sizeof(arr[0]); 
+
+	CheckSubarray(arr, N); 
+
+	return 0; 
+} 
