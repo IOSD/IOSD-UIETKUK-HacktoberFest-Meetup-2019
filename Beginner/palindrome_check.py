@@ -1,11 +1,7 @@
-def isPalindrome(strn): 
-    for i in range(0, len(strn)//2):  
-        if strn[i] != strn[len(strn)-i-1]: 
-            return False
-    return True
+A = str(input("Enter string"))
+b = A.reverse()
 
-x=input()
-if isPalindrome(x)==1:
-    print("Yes, '{}' is a palindrome".format(x))
+if A==b:
+  print(" string is palindrome")
 else:
-    print("No, '{}' is NOT a palindrome".format(x))
+  print(" string is not palindrome")

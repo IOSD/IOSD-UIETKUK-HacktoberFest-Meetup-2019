@@ -1,41 +1,36 @@
-#include <bits/stdc++.h> 
-using namespace std; 
-  
-void swap(int *xp, int *yp)  
-{  
-    int temp = *xp;  
-    *xp = *yp;  
-    *yp = temp;  
-}  
-
-void bubbleSort(int arr[], int n)  
-{  
-    int i, j;  
-    for (i = 0; i < n-1; i++)      
-    {  for (j = 0; j < n-i-1; j++)  
-        {if (arr[j] > arr[j+1])  
-            swap(&arr[j], &arr[j+1]);  
-        }
-    }
+/* C++ Program - Bubble Sort */
+		
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int n, i, arr[50], j, temp;
+	cout<<"Enter total number of elements :";
+	cin>>n;
+	cout<<"Enter "<<n<<" numbers :";
+	for(i=0; i<n; i++)
+	{
+		cin>>arr[i];
+	}
+	cout<<"Sorting array using bubble sort technique...\n";
+	for(i=0; i<(n-1); i++)
+	{
+		for(j=0; j<(n-i-1); j++)
+		{
+			if(arr[j]>arr[j+1])
+			{
+				temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+			}
+		}
+	}
+	cout<<"Elements sorted successfully..!!\n";
+	cout<<"Sorted list in ascending order :\n";
+	for(i=0; i<n; i++)
+	{
+		cout<<arr[i]<<" ";
+	}
+	getch();
 }
-  
-void printArray(int arr[], int size)  
-{  
-    int i;  
-    for (i = 0; i < size; i++)  
-        cout << arr[i] << " ";  
-    cout << endl;  
-}  
-  
-int main()  
-{  int s;
-    cin>>s;
-   int arr[s];
-    cout<<"Enter array";
-    for (i = 0; i < s; i++)  
-      {  cin << arr[i];}  
-    bubbleSort(arr, s);  
-    cout<<"Sorted array: \n";  
-    printArray(arr, s);  
-    return 0;  
-} 
