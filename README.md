@@ -1,10 +1,10 @@
 # IOSD-UIETKUK-HacktoberFest-Meetup-2019
-This repository for IOSD UIET-KUK HacktoberFest  Meetup 2019.
-Write a program in your preferred language.
+This repository is for IOSD UIET-KUK HacktoberFest Meetup 2019.
+Write programs in your preferred language.
 
 ## Getting Started
 
-There are 4 types of problems in this repo
+There are 4 types of problems in this repository
 <ul>
   <li>Beginner</li>
   <li>Intermediate</li>
