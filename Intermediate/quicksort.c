@@ -42,10 +42,10 @@ void quick_sort(long long int A[],int start,int end)
 int main(void)
 {
   int n;
-  printf("enter the number of integers to be entered: ")
+  printf("enter the number of integers to be entered: ");
   scanf("%d",&n);
 	long long int A[n];
-  printf("enter the integers seperated by comma\n")
+  printf("enter the integers seperated by comma\n");
   for (int i=0;i<n;i++)
 		scanf("%lld,",&A[i]);
 	quick_sort(A,0,n-1);
