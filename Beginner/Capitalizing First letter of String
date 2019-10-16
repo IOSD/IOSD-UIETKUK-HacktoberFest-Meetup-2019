@@ -1,0 +1,7 @@
+#you can enter string 
+name = "hactober fest is one the best event."
+name2 = "we are very lucky to work with you."
+
+#this method will capitalize your first letter of string
+print(name.capitalize()) 
+print(name2.capitalize())
