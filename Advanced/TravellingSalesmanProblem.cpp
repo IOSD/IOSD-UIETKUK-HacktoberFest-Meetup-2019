@@ -1,54 +1,36 @@
 #include<iostream>
 using namespace std;
-
-#define INT_MAX 999999
-
-int n=4;
-int dist[10][10] = {
-        {0,20,42,25},
-        {20,0,30,34},
-        {42,30,0,10},
-        {25,34,10,0}
-};
-int VISITED_ALL = (1<<n) -1;
-
-int dp[16][4];
-
-
-int  tsp(int mask,int pos){
-	
-	if(mask==VISITED_ALL){
-		return dist[pos][0];
-	}
-	if(dp[mask][pos]!=-1){
-	   return dp[mask][pos];
-	}
-
-	//Now from current node, we will try to go to every other node and take the min ans
-	int ans = INT_MAX;
-
-	//Visit all the unvisited cities and take the best route
-	for(int city=0;city<n;city++){
-
-		if((mask&(1<<city))==0){
-
-			int newAns = dist[pos][city] + tsp( mask|(1<<city), city);
-			ans = min(ans, newAns);
-		}
-
-	}
-	
-	return dp[mask][pos] = ans;
-} 
-
-int main(){
-    /* init the dp array */
-    for(int i=0;i<(1<<n);i++){
-        for(int j=0;j<n;j++){
-            dp[i][j] = -1;
-        }
-    }
-	cout<<"Travelling Saleman Distance is "<<tsp(1,0);
-
-return 0;
+int c = 0, cost = 1000;
+int g[3][3 ]={{1, 2, 3}, {4, 5, 8}, {6, 7, 10}};
+void swap(int *x, int *y) {
+   int t;
+   t = *x;
+   *x = *y;
+   *y = t;
+}
+void cal_sum(int *a, int n) {
+   int i, s= 0;
+   for (i = 0; i <= n; i++) {
+      s+= g[a[i %3]][a[(i+ 1) %3]];
+   } if (cost >s) {
+      cost = s;
+   }
+}
+void permute(int *a,int i,int n) {
+   int j, k;
+   if (i == n) {
+      cal_sum (a,n);
+   } else {
+      for (j = i; j <= n; j++) {
+         swap((a + i), (a + j));
+         cal_sum(a+1,n);
+         swap((a + i), (a + j));
+      }
+   }
+}
+int main() {
+   int i, j;
+   int a[] = {1,2,3};
+   permute(a, 0,2);
+   cout << "minimum cost:" << cost << endl;
 }
