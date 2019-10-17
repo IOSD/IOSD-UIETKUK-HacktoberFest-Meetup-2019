@@ -45,4 +45,5 @@ There are 4 types of problems in this repository
   <li>IRIS Dataset (Flower Classification)</li>
   <li>Make Your Portfolio in Single HTML file</li>
   <li>Skin Detector Using OpenCV</li>
+  <li>Morphing Loader using CSS Clip Paths</li>
 </ul>
