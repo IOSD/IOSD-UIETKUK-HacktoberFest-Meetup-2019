@@ -10,7 +10,7 @@ int main(){
 	if(n&1){
 		cout<<"You have entered Odd Number";
 	} else {
-		cout<<"You have enterd Even Number";
+		cout<<"You have entered Even Number";
 	}
 }
 
