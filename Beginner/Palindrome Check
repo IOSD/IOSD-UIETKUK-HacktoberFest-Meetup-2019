@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Program
+{
+	public static void main(String[] args) {
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter string ");
+		String str=s.next();
+		boolean check=true;
+		
+		
+		for(int i=0,j=str.length()-1;i<j;i++,j--){
+		    
+		    if(str.length()%2==0){
+		        check=false;
+		        break;
+		    }
+		    
+		    if(str.charAt(i)!= str.charAt(j)){
+		        check=false;
+		        break;
+		    }
+		}
+		
+		if(check){
+		     System.out.println("It is a palindrome");
+		    
+		}else{
+		    
+		    System.out.println("Not a palindrome");
+		}
+	}
+}
