@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    int f1 = 0,f2 = 1,i,j,nxt,n;
+    int f1 = 0,f2 = 1,i,nxt,n;
     printf("Fibonacci Sequence up to term ? : ");
     scanf("%d",&n);
     for(i=1;i<n+1;++i)
