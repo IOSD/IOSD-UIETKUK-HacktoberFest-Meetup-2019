@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+void main()
+{
+
+ long a=0,b=1,c,i;
+ printf("%li\n%li\n",a,b);
+ for(i=3;i<=30;i=i+1)
+ {
+  c=a+b;
+
+  printf("%li\n",c);
+  a=b;
+  b=c;
+ }
+
+ return 0;
+}
