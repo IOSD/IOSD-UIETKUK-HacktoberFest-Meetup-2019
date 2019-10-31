@@ -1,0 +1,9 @@
+import random 
+  
+test_dict = {'Gfg' : 1, 'is' : 2, 'best' : 3} 
+  
+print("The original dictionary is : " + str(test_dict)) 
+  
+res = key, val = random.choice(list(test_dict.items())) 
+  
+print("The random pair is : " + str(res)) 
