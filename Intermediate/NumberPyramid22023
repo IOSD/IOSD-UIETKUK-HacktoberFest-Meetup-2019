@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+void main()
+{
+ int i,j,rows;
+ gotoxy(35,1);
+ textcolor(14);
+ cprintf("HALF PYRAMID\n");
+ printf("\n");
+ printf("Enter number of rows:");
+ scanf("%i",&rows);
+
+ for(i=1;i<=rows;i++)
+ {
+  for(j=1;j<=i;j++)
+  {
+   printf("%i",j);
+  }
+  printf("\n");
+ }
+ return 0;
+}
