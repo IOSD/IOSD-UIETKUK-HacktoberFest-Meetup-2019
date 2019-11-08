@@ -1,0 +1,19 @@
+class FibonacciSeries{
+
+  public static void main(String[] args){
+  
+    int first=0,second=1,next,count=2;
+    
+    System.out.print(first+" "+second+" ");
+    
+    while(count<=1000){
+      next=first+second;
+      System.out.print(next+" ");
+      first=second;
+      second=next;
+      count+=1;
+    }
+    
+    
+  }
+}
