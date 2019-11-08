@@ -33,8 +33,8 @@ There are 4 types of problems in this repository
 ### Advanced
 
 <ul>
-  <li>Breadth First Search</li>
-  <li>Depth First Search</li>
+  <li>Breadth First Search(BFS)</li>
+  <li>Depth First Search(DFS)</li>
   <li>Traveling Salesman Problem</li>
   <li>Detect and break the loop in Linked List</li>
 </ul>
