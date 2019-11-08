@@ -1,0 +1,11 @@
+numbers = [5,7,12,45,92,2,0,25,50,100] 
+numbers.sort(reverse=True) 
+print(numbers) 
+
+decimalnumber = [6.25, 2.98, 4.92, 78.2, 11.88] 
+decimalnumber.sort(reverse=True) 
+print(decimalnumber) 
+ 
+words = ["Pratik", "Spartan", "is","Beginner"] 
+words.sort(reverse=True) 
+print(words) 
