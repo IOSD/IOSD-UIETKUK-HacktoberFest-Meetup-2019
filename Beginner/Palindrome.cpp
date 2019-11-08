@@ -11,7 +11,7 @@ int main() {
     
     if(str == reverse)
         std::cout << "Palindrome!";
-    else
+    else if(str != reverse)
         std::cout << "Not a palindrome!";
 
     return 0;
