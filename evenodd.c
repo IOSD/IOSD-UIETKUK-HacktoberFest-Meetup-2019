@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream.h>
 
 
 
@@ -14,11 +14,11 @@ int n;
 
 
 
-printf("enter the number:");
+cout<<"enter the number:";
 
 
 
-scanf(n);
+cin>>n;
 
 
 
@@ -26,7 +26,7 @@ if(n/2==0)
 
 
 
-printf("even");
+cout<<"even";
 
 
 
@@ -34,7 +34,7 @@ else
 
 
 
-printf("odd");
+cout<<"odd";
 
 
 
