@@ -8,7 +8,7 @@ if(n%2 == 0)
 {
 cout<<"even";
 }
-else
+if(n%2 ! =0) 
 {
 cout<<"odd";
 }
