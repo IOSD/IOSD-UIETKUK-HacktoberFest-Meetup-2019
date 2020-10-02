@@ -20,6 +20,7 @@ There are 4 types of problems in this repo
   <li>Fibanocci Sequence</li>
   <li>Check Whether Input String is Palindrome or Not</li>
   <li>Rotate an Array</li>
+  <li>Rearrange array so positive and negative numbers separated</li>
 </ul>
 
 ### Intermediate
