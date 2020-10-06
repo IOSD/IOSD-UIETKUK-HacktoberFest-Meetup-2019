@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
     int n ;
-    cout << "Input age";
+    cout << "Input age :";
     cin >> n;
     if(n>=18)
-        cout << "Adult ";
+        cout << "Adult! ";
     else 
-        cout<<"Not an adult";
+        cout<<"Not an adult!";
 return 0;
 }
