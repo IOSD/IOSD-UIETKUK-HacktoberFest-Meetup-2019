@@ -36,6 +36,6 @@ main()
 	}
 	if(first > last)
 	{
-		cout<<"Not found! "<<search<<" is not present in the list.";
+		cout<<"Not found "<<search<<" is not present in the list.";
 	}
 }
