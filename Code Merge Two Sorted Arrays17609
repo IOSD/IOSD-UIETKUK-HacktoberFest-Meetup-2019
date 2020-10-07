@@ -8,7 +8,7 @@ Input Format :
 Output Format :
 M + N integers i.e. elements of third sorted array separated by spaces.
 Constraints :
-1 <= M, N <= 10^6
+1 <= M and  N <= 10^6
 Sample Input :
 5
 1 3 4 7 11
@@ -42,3 +42,4 @@ n2=int(input())
 arr2=[int(x) for x in input().split()]
 arr=MergeSortedArray(arr1,arr2)
 print(*arr)
+
