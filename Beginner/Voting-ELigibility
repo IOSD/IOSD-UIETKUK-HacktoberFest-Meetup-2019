@@ -1,0 +1,21 @@
+//Voting Eligibility Checker
+
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{  int age;
+   cout<<"***Voting ELigibility Checker***\n";
+   cout << "\n Enter your age: "; 
+   cin>>age;
+   
+   if(age>=18)
+   cout<<" Congratuations! You are eligible for voting!"
+   
+   else
+   cout<<"Sorry! You are ineligible for voting"
+   
+   getch();
+}
