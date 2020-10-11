@@ -27,8 +27,12 @@ There are 4 types of problems in this repo
 
 <ul>
   <li>Bubble Sort</li>
-  <li>Binary Search</li>
+  <li>Insertion Sort</li> 
+  <li>Selection Sort</li>
+  <li>Merge Sort</li>
   <li>Quick Sort</li>
+  <li>Binary Search</li>
+  <li>Linear Search</li>
   <li>Flip the bits of given number from</li>
 </ul>
 
