@@ -27,9 +27,10 @@ There are 4 types of problems in this repository
 
 <ul>
   <li>Bubble Sort</li>
-  <li>Binary Search</li>
+  <li>Insertion Sort</li> 
+  <li>Selection Sort</li>
+  <li>Merge Sort</li>
   <li>Quick Sort</li>
-  <li>Flip the bits of a given number</li>
 </ul>
 
 ### Advanced
