@@ -1,10 +1,10 @@
-# IOSD-UIETKUK-HacktoberFest-Meetup-2019
-This repository for IOSD UIET-KUK HacktoberFest  Meetup 2019
-Write a program in your preferred language.. 
+# IOSD-HacktoberFest-Repo-2020
+This repository was started for IOSD  HacktoberFest Meetup 2019. This can be utilised in 2020 Hacktoberfest as well.
+Write programs in your preferred coding language.
 
 ## Getting Started
 
-There are 4 types of problems in this repo
+There are 4 types of problems in this repository
 <ul>
   <li>Beginner</li>
   <li>Intermediate</li>
@@ -16,8 +16,8 @@ There are 4 types of problems in this repo
 
 <ul>
   <li>Check Whether Number is Odd or Not</li>
-  <li>Input The Age, if age>18 print adult , if 10<age<=18 print teen, if age<10 print child</li>
-  <li>Fibanocci Sequence</li>
+  <li>Input The Age, if age > 18 print adult , if 10 < age <= 18 print teen, if age < 10 print child</li>
+  <li>Fibonacci Sequence</li>
   <li>Check Whether Input String is Palindrome or Not</li>
   <li>Rotate an Array</li>
   <li>Rearrange array so positive and negative numbers separated</li>
@@ -31,9 +31,6 @@ There are 4 types of problems in this repo
   <li>Selection Sort</li>
   <li>Merge Sort</li>
   <li>Quick Sort</li>
-  <li>Binary Search</li>
-  <li>Linear Search</li>
-  <li>Flip the bits of given number from</li>
 </ul>
 
 ### Advanced
@@ -50,5 +47,5 @@ There are 4 types of problems in this repo
 <ul>
   <li>IRIS Dataset (Flower Classification)</li>
   <li>Make Your Portfolio in Single HTML file</li>
-  <li>Skin Detecter Using OpenCV</li>
+  <li>Skin Detector Using OpenCV</li>
 </ul>
