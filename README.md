@@ -19,6 +19,8 @@ There are 4 types of problems in this repository
   <li>Input The Age, if age > 18 print adult , if 10 < age <= 18 print teen, if age < 10 print child</li>
   <li>Fibonacci Sequence</li>
   <li>Check Whether Input String is Palindrome or Not</li>
+  <li>Rotate an Array</li>
+  <li>Rearrange array so positive and negative numbers separated</li>
 </ul>
 
 ### Intermediate
