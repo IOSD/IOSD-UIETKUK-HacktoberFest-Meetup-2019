@@ -1,4 +1,5 @@
 # IOSD-HacktoberFest-Repo-2020
+Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
 This repository was started for IOSD  HacktoberFest Meetup 2019. This can be utilised in 2020 Hacktoberfest as well.
 Write programs in your preferred coding language.
 
