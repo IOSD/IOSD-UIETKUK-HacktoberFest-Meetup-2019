@@ -1,15 +1,12 @@
-#include<bits/stdc++.h>
-
+#include<iostream>
 using namespace std;
-
 int main()
 {
-    int n ;
-    cout << "Input age";
-    cin >> n;
-    if(n>=18)
-        cout << "Adult ";
-    else 
-        cout<<"Not an adult";
+ int n;
+ cin>>n;
+ if(n>=18)
+  cout<<"Adult";
+ else
+  cout<<"Not an adult";
 return 0;
 }
