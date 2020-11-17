@@ -2,18 +2,18 @@
 
 void main(){
     while(1){
-        int num;
+        int age;
         char ch;
-        printf("ENTER AGE : ");
-        scanf("%d",&num);
-        if(num>18){
-            printf("ADULT\n");
+        printf("ENTER AGE OF PERSON : ");
+        scanf("%d",&age);
+        if(age>18){
+            printf("THE PERSON IS ADULT\n");
         }
-        else if(num<10){
-            printf("CHILD\n");
+        else if(age<10){
+            printf("THE PERSON IS CHILD\n");
         }
-        else if(num>=10 && num<=18){
-            printf("TEEN\n");
+        else if(age>=10 && age<=18){
+            printf("THE PERSON IS TEENAGER\n");
         }
         printf("Do you want to check more (y/n):");
         scanf(" %c",&ch);
