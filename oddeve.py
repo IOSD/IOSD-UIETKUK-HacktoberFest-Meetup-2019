@@ -1,9 +1,9 @@
 def check(num):
     if (num % 2) == 0:
-        return "Even"
+        return "Number is Even"
     else:
-        return "Odd"
+        return "Number is Odd"
 
-num = int(input("Enter a number: "))
+num = int(input("Enter a Number: "))
 ans = check(num)
 print("{} is {}".format(num,ans)) 
