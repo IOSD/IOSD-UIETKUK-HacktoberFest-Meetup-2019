@@ -1,0 +1,20 @@
+
+#include <iostream> 
+using namespace std; 
+  
+ 
+// even, else odd 
+bool isEven(int n) 
+{ 
+return (n % 2 == 0); 
+} 
+  
+// Driver code 
+int main() 
+{  
+int n = 101; 
+isEven(n)? cout << "not" : 
+           cout << "Odd"; 
+  
+return 0; 
+}  
