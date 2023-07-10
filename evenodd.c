@@ -14,7 +14,7 @@ int n;
 
 
 
-printf("enter the number:");
+printf("Enter the Number:");
 
 
 
